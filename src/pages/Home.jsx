@@ -1,8 +1,11 @@
 import React from 'react';
+import Bio from '../components/Bio'
 
 function Home() {
     return (
-        <p>Hello Routes are working</p>
+        <>
+            <Bio />
+        </>
     );
 }
 
