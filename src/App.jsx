@@ -13,7 +13,15 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar/>
+      <div>
+        <Routes>        
+          <Route path="/"  element={<Home />} />
+          <Route path="/skills"  element={<Layout />}/>
+          <Route path="/projects"  element={<Home />}/>
+          <Route path="/about" element={<Home />}></Route>
+        </Routes>
+      </div>
     </>
   )
 }
