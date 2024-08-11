@@ -1,0 +1,18 @@
+.textContainer2 {
+    color: white;       
+    text-align: center;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+
+}
+
+.about-title {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+
+}

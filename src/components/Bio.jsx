@@ -6,9 +6,9 @@ const Bio = () => {
     return (
     <> 
         <div className="textContainer">
-            <p className="greeting">Good Day</p>
+            <p className="greeting">Welcome</p>
             <p className="name">I'm Connor White</p>
-            <p className="info">I am a senior in highschool who loves to code.Take a look around and learn more about me!
+            <p className="info">I am an aspiring software engineer with skills in both back and front end development. Take a look around and learn more about me!
             </p>
         </div>
     </>);
