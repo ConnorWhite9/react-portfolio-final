@@ -1,0 +1,54 @@
+.col-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 5rem;
+}
+.column {
+    flex: 1;
+    margin: 0 5rem;
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.sk-title{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.skill-icon {
+    width: 6rem;
+    height: 6rem;
+}
+
+.img-container {
+    margin-top: 1rem;
+    width: 33%;
+}
+
+.caption {
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.25rem;
+    
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.textAligner {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

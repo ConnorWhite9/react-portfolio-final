@@ -8,20 +8,23 @@ import About from './pages/About';
 import Wave from './components/Wave';
 import Contact from './pages/Contact';
 import Skills from './pages/Skills';
+import Projects from './pages/Projects';
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Navbar/>
+    <> 
+      <div className="outline">
+        <Navbar/>
+      </div>
       
       <div>
         <Routes>        
           <Route path="/"  element={<Home />} />
           <Route path="/skills"  element={<Skills />}/>
-          <Route path="/projects"  element={<Home />}/>
+          <Route path="/projects"  element={<Projects />}/>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>

@@ -9,7 +9,17 @@
 html {
   background-color: #22031A;
   font-family: "Poppins", sans-serif;
+  font-size: 0.833vw;
 }
 
+@media ( max-width: 1000px) {
+  html {
+    font-size: 1vw;
+  }
+}
 
+.outline {
+  width: 100vw;
+  border-bottom: 2px white groove;
+}
 

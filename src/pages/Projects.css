@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5rem;
+}
+
+.left-column, .right-column {
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-column {
+    background-color: #f4f4f4;
+}
+
+.right-column {
+    background-color: #e4e4e4;
+}
