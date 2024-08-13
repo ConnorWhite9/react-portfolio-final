@@ -9,7 +9,7 @@ import Wave from './components/Wave';
 import Contact from './components/Contact';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
-
+import Email from './pages/Email';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +25,8 @@ function App() {
           <Route path="/"  element={<Home />} />
           <Route path="/skills"  element={<Skills />}/>
           <Route path="/projects"  element={<Projects />}/>
-          <Route path="/about" element={<About />}></Route>
+          <Route path="/about" element={<About />}></Route> 
+          <Route path="/email" element={<Email />}></Route>
         </Routes>
         
       </div>
