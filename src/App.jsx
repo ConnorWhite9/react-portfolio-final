@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Bio from './components/Bio';
 import About from './pages/About';
 import Wave from './components/Wave';
-import Contact from './pages/Contact';
+import Contact from './components/Contact';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 
@@ -26,7 +26,6 @@ function App() {
           <Route path="/skills"  element={<Skills />}/>
           <Route path="/projects"  element={<Projects />}/>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
         
       </div>

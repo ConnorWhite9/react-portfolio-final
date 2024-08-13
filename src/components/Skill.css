@@ -1,16 +1,3 @@
-.col-container {
-    display: flex;
-    justify-content: space-between; 
-    margin-top: 5rem;
-}
-.column {
-    flex: 1;
-    margin: 0 5rem;
-    padding: 2rem;
-    text-align: center;
-    
-}
-
 .sk-title{
     color: white;
     font-size: 2.5rem;
@@ -36,17 +23,6 @@
     font-size: 1.25rem;
     
     margin-right: auto;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5rem;
 }
 
 .textAligner {

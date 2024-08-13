@@ -2,6 +2,7 @@ import React from 'react';
 import './Skills.css';
 import Python from '../assets/python-brands-solid.svg';
 import C from '../assets/C.png';
+import Skill from '../components/Skill'
 
 const Skills = () => {
     return (
@@ -10,114 +11,49 @@ const Skills = () => {
                 <div className="column">
                     <h1 className="sk-title">Languages</h1>
                     <div className="row">
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <iframe className="skill-icon" src={Python} ></iframe>
-                                <div class="caption">Python</div>
-                            </div>
-                            
-                        </div>
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                                <div class="caption">Javascript</div>
-                            </div>
-                            
-                        </div>
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                                <div className="caption">HTML</div>
-                            </div>
-                            
-                        </div>
+                        <Skill name="Python" image={Python} />
+                        
+                        <Skill name="Javascript" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+                        
+                        <Skill name="HTML" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
                     </div>
                     <div className="row">
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                                <div className="caption">CSS</div>
-                            </div>
-                        </div>
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src={C} />
-                                <div className="caption">C</div>
-                            </div>
-                        </div>
+                        <Skill name="CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
+                        
+                        <Skill name="C" image={C} />
                     </div>
                 </div>
                 <div className="column">
                     <h1 className="sk-title">Frameworks/Other</h1>
                     <div className="row">
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" />
-                                <div className="caption">Flask</div>
-                            </div>
-                        </div>
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
-                                <div className="caption">Django</div>
-                            </div>
-                        </div>
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-                                <div className="caption">React</div>
-                            </div>
-                        </div>
+                        <Skill name="Flask" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"/>
+                        
+                        <Skill name="Django" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
+                        
+                        <Skill name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
                     </div>
                     <div className="row">
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-                                <div className="caption">Node.js</div>
-                            </div>
-                        </div>
+                        <Skill name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
 
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" />
-                                <div className="caption">FastAPI</div>
-                            </div>
-                        </div>
-                        <div className="img-container">
-                            <div className="textAligner">
-                                <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
-                                <div className="caption">Express.js</div>
-                            </div>
-                        </div>
+                        <Skill name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" />
+                        
+                        <Skill name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"/>
                     </div>
                     
                 </div>
                 <div className="column">
                     <h1 className="sk-title">Libraries</h1>
                     <div className="row">
-                        <div className="textAligner">
-                            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />
-                            <div className="caption">Numpy</div>
-                        </div>
-                        <div className="textAligner">
-                            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" />
-                            <div className="caption">PyTorch</div>
-                        </div>
-                        <div className="textAligner">
-                            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg"  />
-                            <div className="caption">SQLAlchemy</div>
-                        </div>
+                        <Skill name="numpy" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"/>
+
+                        <Skill name="PyTorch" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" />
+
+                        <Skill name="SQLAlchemy" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg" />
                     </div>
                     <div className="row">
-                        <div className="textAligner">
-                            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" />
-                            <div className="caption">TensorFlow</div>
-                        </div>
-                        <div className="textAligner">
-                            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" />
-                            <div className="caption">Pandas</div>
-                        </div>
-                    </div>
+                        <Skill name="TensorFlow" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" />
+                        <Skill name="Pandas" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" />
+                    </div> 
                 </div>
             </div>
         
