@@ -59,7 +59,7 @@ const EmailForm = () => {
                 <textarea className="email-input" id="message" name="message" value={formData.message} onChange={handleChange} required/>
             </div>
         
-            <button className="email-btn" type="submit">Send Email</button>
+            <button className="button-41" type="submit">Send Email</button>
         </form>
     );
 }
