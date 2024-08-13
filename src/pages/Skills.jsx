@@ -11,8 +11,8 @@ const Skills = () => {
                 <div className="column">
                     <h1 className="sk-title">Languages</h1>
                     <div className="row">
-                        <Skill name="Python" image={Python} />
-                        
+                        <Skill name="Python" image="../assets/python-brands-solid.svg" />
+
                         <Skill name="Javascript" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
                         
                         <Skill name="HTML" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
@@ -20,7 +20,7 @@ const Skills = () => {
                     <div className="row">
                         <Skill name="CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
                         
-                        <Skill name="C" image={C} />
+                        <Skill name="C" image="../assets/C.png" />
                     </div>
                 </div>
                 <div className="column">

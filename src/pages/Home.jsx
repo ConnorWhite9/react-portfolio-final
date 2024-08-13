@@ -1,13 +1,16 @@
 import React from 'react';
 import Bio from '../components/Bio'
 import Contact from '../components/Contact'
+import './Home.css'
 
 function Home() {
     return (
         <>
-        
-            <Bio />
-            <Contact />
+            <div className="home-container">
+                <Bio />
+                <Contact />
+            </div>
+            
         </>
     );
 }

@@ -6,6 +6,8 @@
 .skill-icon {
     width: 6rem;
     height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-container {

@@ -6,7 +6,8 @@
     border-radius: 10%;
     width: 25rem;
     margin-left: auto;
-    margin-right: 5rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
 }
 
 .contact-title{
@@ -17,10 +18,8 @@
 }
 
 .link-container {
+    margin-top: 3rem;
     text-align: center;
-    margin-left: auto;
-    
-    
 }
 
 .link-item {
@@ -28,10 +27,18 @@
     margin-right: auto;
 }
 
-.link-name {
 
+.link-name {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1rem;
 }
 
-.link-name {
-
+.link {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 2rem;
 }
