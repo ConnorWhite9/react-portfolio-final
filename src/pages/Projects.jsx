@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './Projects.css';
+import '../styles/Projects.css';
 import random from '../assets/random.webp';
 import Project from '../components/Project'
 

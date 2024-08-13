@@ -1,5 +1,5 @@
 import React from 'react';
-import './Wave.css'
+import '../styles/Wave.css'
 
 
 const Wave = () => {

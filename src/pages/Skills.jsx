@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import '../styles/Skills.css';
 import Python from '../assets/python-brands-solid.svg';
 import C from '../assets/C.png';
 import Skill from '../components/Skill'
