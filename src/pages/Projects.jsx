@@ -23,12 +23,12 @@ const Projects = () => {
     })
     return (
         <>
-            <div class="container">
-                <div class="left-column">
+            <div className="container">
+                <div className="left-column">
                     
                     <Project name={sudoku.name} image={sudoku.image} link={sudoku.link}  descrip={sudoku.descrip} />
                 </div>
-                <div class="right-column">
+                <div className="right-column">
                     
                     <Project name={bms.name} image={bms.image} link={bms.link} descrip={bms.descrip} />
                 </div>

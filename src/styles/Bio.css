@@ -4,7 +4,7 @@
 
 .name {
     font-size: 4.5rem;
-    color: rgb(255, 255, 0);
+    color: #A5E697;
 }
 
 .greeting {
@@ -16,6 +16,11 @@
     margin-top: 10rem;
     margin-left: 5rem;
     width: 40rem;
+}
+
+.wireframe-link{
+    font-size: 0.7rem;
+    margin-top: 1rem;
 }
 
 @media (max-aspect-ratio: 1/1) {
@@ -36,5 +41,10 @@
 
     .greeting {
         font-size: 4rem;
+    }
+
+    .wireframe-link {
+        font-size: 2rem;
+        
     }
 }

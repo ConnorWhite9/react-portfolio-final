@@ -1,0 +1,38 @@
+.wireframe-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+    height: 19rem;
+    border: solid white 3px;
+
+}
+
+.wireframe-container {
+    display: flex; 
+    flex-direction: column;
+
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+
+
+@media (max-aspect-ratio: 1/1) {
+    .row2 {
+        flex-direction: column;
+    }
+
+    .wireframe-img {
+        width: 70rem;
+        height: 50rem;
+        margin-right: auto;
+    }
+
+    .wireframe-container {
+        margin-top: 5rem;
+    }
+}

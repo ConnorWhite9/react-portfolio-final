@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Email from './pages/Email';
+import Wireframe from './pages/Wireframe'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
             <Route path="/projects"  element={<Projects />}/>
             <Route path="/about" element={<About />}></Route> 
             <Route path="/email" element={<Email />}></Route>
+            <Route path="/wireframe" element={<Wireframe />}></Route>
           </Routes>
           
         </div>
