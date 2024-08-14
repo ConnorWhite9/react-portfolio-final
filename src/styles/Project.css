@@ -32,3 +32,20 @@
     color: white;
     font-size: 1rem;
 }
+@media (max-aspect-ratio: 1/1) {
+    .project-name {
+        font-size: 5rem;
+    }
+
+    .project-img {
+        width: 40rem;
+        height: 40rem;
+    }
+    .project-description {
+        font-size: 3rem;
+    }
+
+    .instru {
+        font-size: 2rem;
+    }
+}

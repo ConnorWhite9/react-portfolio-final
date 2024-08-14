@@ -42,7 +42,7 @@
   
 
 
-@media (max-width: 1200px) {
+@media (max-aspect-ratio: 1/1) {
   .navbar {
     height: 7vh;
   }

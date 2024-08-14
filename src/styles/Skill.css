@@ -32,3 +32,18 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-aspect-ratio: 1/1) {
+    .skill-icon{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .caption {
+        font-size: 4rem;
+    }
+
+    .sk-title {
+        font-size: 6rem;
+    }
+}
