@@ -21,5 +21,6 @@ html {
 .outline {
   width: 100vw;
   border-bottom: 2px white groove;
+  outline-style: none !important;
 }
 

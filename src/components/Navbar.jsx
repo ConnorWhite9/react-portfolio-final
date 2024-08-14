@@ -16,13 +16,13 @@ const Navbar = () => {
         <div className="navbar-right">
             <ul className="nav-links">
                 <li>
-                    <Link to="/skills">Skills</Link>
+                    <Link className="link-props" to="/skills">Skills</Link>
                 </li>
                 <li>
-                    <Link to="/projects">Projects</Link>
+                    <Link className="link-props" to="/projects">Projects</Link>
                 </li>
                 <li>
-                    <Link to="/about">About me</Link>
+                    <Link className="link-props" to="/about">About me</Link>
                 </li>
                 
             </ul>

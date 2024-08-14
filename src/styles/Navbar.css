@@ -40,20 +40,17 @@
   
   
   
-  @media (max-width: 768px) {
-    .navbar-center .nav-links {
-      display: none;
-    }
 
-    .navbar-right {
-      display: flex;
-      align-items: center;
-    }
 
-    .navbar-right .hamburger-menu {
-      display: block;
-      color: #fff;
-      font-size: 1.5rem;
-      cursor: pointer;
-    }
+@media (max-width: 1200px) {
+  .navbar {
+    height: 7vh;
   }
+  .link-props {
+    font-size: 3rem;
+  }
+  .navbar-left .logo {
+    font-size: 5rem;
+  }
+  
+}
