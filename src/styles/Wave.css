@@ -62,5 +62,12 @@
 }
 
 @media (max-aspect-ratio: 1/1) {
+    .wave {
+       margin-top: 200rem;
+    }
+    .wave1, .wave2, .wave3, .wave4{
+        position: fixed;
+        margin-top: 100rem;
+    }
     
 }

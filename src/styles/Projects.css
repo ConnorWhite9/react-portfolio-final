@@ -64,5 +64,6 @@
 @media (max-aspect-ratio: 1/1) {
     .container {
         flex-wrap: wrap;
+        margin-bottom: 30rem;
     }
 }

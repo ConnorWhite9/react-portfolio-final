@@ -51,6 +51,12 @@
   }
   .navbar-left .logo {
     font-size: 5rem;
+    text-wrap: wrap;
   }
+  .navbar-left {
+    width: 10rem;
+  }
+  
+
   
 }

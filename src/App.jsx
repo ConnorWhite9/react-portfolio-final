@@ -16,23 +16,24 @@ function App() {
 
   return (
     <> 
-      <div className="outline">
-        <Navbar/>
-      </div>
-      
-      <div>
-        <Routes>        
-          <Route path="/"  element={<Home />} />
-          <Route path="/skills"  element={<Skills />}/>
-          <Route path="/projects"  element={<Projects />}/>
-          <Route path="/about" element={<About />}></Route> 
-          <Route path="/email" element={<Email />}></Route>
-        </Routes>
+      <div className="main-container">
+        <div className="outline">
+          <Navbar/>
+        </div>
         
+        <div className="content-pusher">
+          <Routes>        
+            <Route path="/"  element={<Home />} />
+            <Route path="/skills"  element={<Skills />}/>
+            <Route path="/projects"  element={<Projects />}/>
+            <Route path="/about" element={<About />}></Route> 
+            <Route path="/email" element={<Email />}></Route>
+          </Routes>
+          
+        </div>
+
+        <Wave />
       </div>
-
-      <Wave />
-
     </>
   )
 }
