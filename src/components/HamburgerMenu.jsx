@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../Styles/HamburgerMenu.css';
+import '../styles/HamburgerMenu.css';
 import {Link} from 'react-router-dom';
 
 const HamburgerMenu = () => {
