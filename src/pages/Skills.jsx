@@ -35,7 +35,7 @@ const Skills = () => {
                     <div className="row">
                         <Skill name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
 
-                        <Skill name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" />
+                        <Skill name="FastAPI" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" />
                         
                         <Skill name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"/>
                     </div>
