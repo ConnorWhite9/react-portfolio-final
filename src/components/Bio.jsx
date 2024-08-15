@@ -11,7 +11,6 @@ const Bio = () => {
             <p className="name">I'm Connor White</p>
             <p className="info">I am an aspiring software engineer with skills in both back and front end development. Take a look around and learn more about me!
             </p>
-            <Link className="wireframe-link" to="/Wireframe">Click on this text to view the wireframes for this site.</Link>
         </div>
     </>);
 }

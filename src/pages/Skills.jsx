@@ -39,6 +39,10 @@ const Skills = () => {
                         
                         <Skill name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"/>
                     </div>
+                    <div className="row">
+                        <Skill name="Git" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                        <Skill name="Github" image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"/>
+                    </div>
                     
                 </div>
                 <div className="column">
